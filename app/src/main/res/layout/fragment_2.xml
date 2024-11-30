@@ -1,0 +1,489 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    tools:context=".Fragment2">
+
+    <!-- Sapphire ScrollView -->
+    <ScrollView
+        android:layout_width="374dp"
+        android:layout_height="701dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Sapphire Item 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/gem_image_1"
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:contentDescription="Sapphire Image 1"
+                    android:src="@drawable/moonstones" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/gem_name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="MoonStone"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/carat_name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Heated Stone - 4krt"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/gem_price_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="$2500"
+                        android:textColor="#FF5722"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/gem_description_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="A stunning blue gem that symbolizes wisdom."
+                        android:textColor="#757575"
+                        android:textSize="14sp" />
+
+                    <ImageButton
+                        android:id="@+id/add_to_cart_button_1"
+                        android:layout_width="44dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="16dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="Add to Cart"
+                        android:src="@drawable/bag" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Emerald Item 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/gem_image_2"
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:contentDescription="Sapphire Image 2"
+                    android:src="@drawable/emerald" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/gem_name_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Emerald Premium"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/carat_name_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Natural Stone - 6krt"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/gem_price_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="$3500"
+                        android:textColor="#FF5722"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/gem_description_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="A premium blue sapphire of unmatched quality."
+                        android:textColor="#757575"
+                        android:textSize="14sp" />
+
+                    <ImageButton
+                        android:id="@+id/add_to_cart_button_2"
+                        android:layout_width="44dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="16dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="Add to Cart"
+                        android:src="@drawable/bag" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Ruby Item 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/gem_image_3"
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:contentDescription="Sapphire Image 3"
+                    android:src="@drawable/ruby" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/gem_name_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Dark Red Sapphire"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/carat_name_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Certified Stone - 5krt"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/gem_price_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="$4000"
+                        android:textColor="#FF5722"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/gem_description_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="This Gem that captures the elegance of red."
+                        android:textColor="#757575"
+                        android:textSize="14sp" />
+
+                    <ImageButton
+                        android:id="@+id/add_to_cart_button_3"
+                        android:layout_width="44dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="16dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="Add to Cart"
+                        android:src="@drawable/bag" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Sapphire Item 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/gem_image_4"
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:contentDescription="Sapphire Image 2"
+                    android:src="@drawable/yellow" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/gem_name_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Yellow Sapphire"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/carat_name_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Natural Stone - 6krt"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/gem_price_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="$3500"
+                        android:textColor="#FF5722"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/gem_description_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="A natural yellow sapphire of unmatched quality."
+                        android:textColor="#757575"
+                        android:textSize="14sp" />
+                    <ImageButton
+                        android:id="@+id/add_to_cart_button_4"
+                        android:layout_width="44dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="16dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="Add to Cart"
+                        android:src="@drawable/bag" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Sapphire Item 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/gem_image_5"
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:contentDescription="Sapphire Image 3"
+                    android:src="@drawable/royalblue" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/gem_name_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Royal Blue Sapphire"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/carat_name_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Certified Stone - 5krt"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/gem_price_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="$4000"
+                        android:textColor="#FF5722"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/gem_description_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="A royal gem that captures the elegance of blue."
+                        android:textColor="#757575"
+                        android:textSize="14sp" />
+                    <ImageButton
+                        android:id="@+id/add_to_cart_button_5"
+                        android:layout_width="44dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="16dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="Add to Cart"
+                        android:src="@drawable/bag" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- Sapphire Item 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/gem_image_6"
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:contentDescription="Sapphire Image 3"
+                    android:src="@drawable/pink" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/gem_name_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Pink Sapphire"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/carat_name_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Certified Stone - 5krt"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/gem_price_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="$4000"
+                        android:textColor="#FF5722"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/gem_description_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="A highlight pink gem mostly popular among women."
+                        android:textColor="#757575"
+                        android:textSize="14sp" />
+                    <ImageButton
+                        android:id="@+id/add_to_cart_button_6"
+                        android:layout_width="44dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="16dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="Add to Cart"
+                        android:src="@drawable/bag" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- Sapphire Item 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/gem_image_7"
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:contentDescription="Sapphire Image 3"
+                    android:src="@drawable/light" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/gem_name_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Aqumarine Sapphire"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/carat_name_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Certified Stone - 5krt"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/gem_price_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="$4000"
+                        android:textColor="#FF5722"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/gem_description_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="A highlight light blue gem mostly popular among women."
+                        android:textColor="#757575"
+                        android:textSize="14sp" />
+                    <ImageButton
+                        android:id="@+id/add_to_cart_button_7"
+                        android:layout_width="44dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="16dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="Add to Cart"
+                        android:src="@drawable/bag" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

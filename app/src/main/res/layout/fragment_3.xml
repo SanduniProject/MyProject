@@ -1,0 +1,478 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    tools:context=".Fragment3">
+
+    <!-- Sapphire ScrollView -->
+    <ScrollView
+        android:layout_width="374dp"
+        android:layout_height="701dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- User Profile and Gemstone Review -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <!-- User Avatar -->
+                <ImageView
+                    android:id="@+id/userpic1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:contentDescription="User Avatar"
+                    android:src="@drawable/pic1"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp"/>
+
+                <!-- User Review Content -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical">
+
+                    <!--  Name -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Sarah "
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Natural MoonStone - 1.5krt"
+                        android:textSize="14sp" />
+
+                    <!-- Review Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Absolutely love this Moonstone! It's everything I hoped for and more. The quality is fantastic!"
+                        android:textSize="14sp"
+                        android:textColor="#757575"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Review Date -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Reviewed on: Nov 20, 2024"
+                        android:textSize="12sp"
+                        android:textColor="#B0B0B0"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- User Profile and Gemstone Review for Emerald Premium -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <!-- User Avatar -->
+                <ImageView
+                    android:id="@+id/userpic2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:contentDescription="User Avatar"
+                    android:src="@drawable/pic2"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp"/>
+
+                <!-- User Review Content -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical">
+
+                    <!--  Name -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Tom"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <!-- Gemstone Carat Name -->
+                    <TextView
+                        android:id="@+id/name_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Emerald Premium - 6krt"
+                        android:textSize="14sp" />
+
+                    <!-- Review Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Absolutely love this Emerald! It's everything I expected, with a beautiful color and excellent quality!"
+                        android:textSize="14sp"
+                        android:textColor="#757575"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Review Date -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Reviewed on: Oct 15, 2024"
+                        android:textSize="12sp"
+                        android:textColor="#B0B0B0"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- User Profile and Gemstone Review for Hot Red Sapphire Famous -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <!-- User Avatar -->
+                <ImageView
+                    android:id="@+id/userpic3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:contentDescription="User Avatar"
+                    android:src="@drawable/pic3"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp"/>
+
+                <!-- User Review Content -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical">
+
+                    <!-- User Name -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Emily"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <!-- Gemstone Name -->
+                    <TextView
+                        android:id="@+id/name_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Hot Red Sapphire - 4krt"
+                        android:textSize="14sp" />
+
+                    <!-- Review Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="This Hot Red Sapphire is amazing! The color is so vivid and the clarity is just stunning. I'm beyond satisfied with my purchase!"
+                        android:textSize="14sp"
+                        android:textColor="#757575"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Review Date -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Reviewed on: Oct 12, 2024"
+                        android:textSize="12sp"
+                        android:textColor="#B0B0B0"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- User Profile and Gemstone Review for Yellow Sapphire -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <!-- User Avatar -->
+                <ImageView
+                    android:id="@+id/userpic4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:contentDescription="User Avatar"
+                    android:src="@drawable/pic4"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp"/>
+
+                <!-- User Review Content -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical">
+
+                    <!-- User Name -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Danila"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <!-- Gemstone Name -->
+                    <TextView
+                        android:id="@+id/carat_name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Yellow Sapphire - 6krt"
+                        android:textSize="14sp" />
+
+                    <!-- Review Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="The Yellow Sapphire shines like the sun! The color is vibrant, and the clarity is impeccable. I absolutely love its sunny glow!"
+                        android:textSize="14sp"
+                        android:textColor="#757575"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Review Date -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Reviewed on: Sep 25, 2024"
+                        android:textSize="12sp"
+                        android:textColor="#B0B0B0"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- User Profile and Gemstone Review for Royal Blue Sapphire -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <!-- User Avatar -->
+                <ImageView
+                    android:id="@+id/userpic5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:contentDescription="User Avatar"
+                    android:src="@drawable/pic5"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp"/>
+
+                <!-- User Review Content -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical">
+
+                    <!-- User Name -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="David"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <!-- Gemstone Name -->
+                    <TextView
+                        android:id="@+id/name_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Royal Blue Sapphire - 6krt"
+                        android:textSize="14sp" />
+
+                    <!-- Review Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="The Royal Blue Sapphire is absolutely stunning! The deep blue color is so rich and vibrant, it feels like looking into the night sky. I'm thrilled with my purchase!"
+                        android:textSize="14sp"
+                        android:textColor="#757575"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Review Date -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Reviewed on: Sep 22, 2024"
+                        android:textSize="12sp"
+                        android:textColor="#B0B0B0"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- User Profile and Gemstone Review for Pink Sapphire -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <!-- User Avatar -->
+                <ImageView
+                    android:id="@+id/userpic6"
+                    android:layout_width="62dp"
+                    android:layout_height="66dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="User Avatar"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pic6" />
+
+                <!-- User Review Content -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical">
+
+                    <!-- User Name -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Sam"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <!-- Gemstone Name -->
+                    <TextView
+                        android:id="@+id/name_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Pink Sapphire - 5krt"
+                        android:textSize="14sp" />
+
+                    <!-- Review Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="The Pink Sapphire is truly gorgeous! The soft pink hue radiates a gentle elegance, making it the perfect addition to my collection. I couldn't be happier with my purchase!"
+                        android:textSize="14sp"
+                        android:textColor="#757575"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Review Date -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Reviewed on: Aug 27, 2024"
+                        android:textSize="12sp"
+                        android:textColor="#B0B0B0"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- User Profile and Gemstone Review for Aquamarine -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+
+                <!-- User Avatar -->
+                <ImageView
+                    android:id="@+id/userpic7"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:contentDescription="User Avatar"
+                    android:src="@drawable/pic7"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp"/>
+
+                <!-- User Review Content -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical">
+
+                    <!-- User Name -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Peter"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <!-- Gemstone Name -->
+                    <TextView
+                        android:id="@+id/name_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Aquamarine - 6krt"
+                        android:textSize="14sp" />
+
+                    <!-- Review Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="The Aquamarine gemstone reminds me of the clear blue sky or the tranquil sea. Its soft, soothing color is absolutely mesmerizing, and it sparkles beautifully in the light. I couldn't be more in love with it!"
+                        android:textSize="14sp"
+                        android:textColor="#757575"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Review Date -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Reviewed on: Aug 13, 2024"
+                        android:textSize="12sp"
+                        android:textColor="#B0B0B0"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
